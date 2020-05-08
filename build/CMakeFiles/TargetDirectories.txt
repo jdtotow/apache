@@ -1,0 +1,4 @@
+C:/Project/apache/mod_foo/build/CMakeFiles/mod_datanoesis.dir
+C:/Project/apache/mod_foo/build/CMakeFiles/INSTALL.dir
+C:/Project/apache/mod_foo/build/CMakeFiles/ALL_BUILD.dir
+C:/Project/apache/mod_foo/build/CMakeFiles/ZERO_CHECK.dir

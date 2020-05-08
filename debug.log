@@ -1,0 +1,14 @@
+● apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: failed (Result: exit-code) since Thu 2020-04-09 12:27:56 EEST; 43s ago
+  Process: 13649 ExecStart=/usr/sbin/apachectl start (code=exited, status=1/FAILURE)
+
+Απρ 09 12:27:56 jcloud systemd[1]: Starting The Apache HTTP Server...
+Απρ 09 12:27:56 jcloud apachectl[13649]: apache2: Syntax error on line 232 of /etc/apache2/apache2.conf: Cannot load modules/mod_datanoesis.so into server: /etc/apache2/modules/mod_datanoesis.so: only ET_DYN and ET_EXEC can be loaded
+Απρ 09 12:27:56 jcloud apachectl[13649]: Action 'start' failed.
+Απρ 09 12:27:56 jcloud apachectl[13649]: The Apache error log may have more information.
+Απρ 09 12:27:56 jcloud systemd[1]: apache2.service: Control process exited, code=exited status=1
+Απρ 09 12:27:56 jcloud systemd[1]: apache2.service: Failed with result 'exit-code'.
+Απρ 09 12:27:56 jcloud systemd[1]: Failed to start The Apache HTTP Server.
