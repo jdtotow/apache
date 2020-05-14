@@ -1,9 +1,11 @@
 #include <memory>
+#include <cstdlib>
+#include <iostream>
 #include "httpd.h"
 #include "http_config.h"
 #include "http_protocol.h"
 #include "ap_config.h"
-#include "DatanoesisHandler.h"
+#include "DatanoesisHandler.hpp"
 
 auto handler = std::make_unique<DatanoesisHandler>();
 extern "C"{

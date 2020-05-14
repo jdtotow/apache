@@ -3,7 +3,7 @@ set(PROJECT_NAME mod_datanoesis)
 set(APACHE_PATH "C:/Apache24")
 set(MYSQL_PATH "C:/Program Files (x86)/MySQL/MySQL Server 5.7")
 set(ORACLE_PATH "C:/Oracle/ODS12cr1Cli/oci")
-set(JSONCPP_PATH "C:/json-develop/")
+set(JSONCPP_PATH "C:/Project/apache/mod_foo/json")
 project(${PROJECT_NAME} VERSION 1.0)
 
 set(APACHE_MODULE_PATH "${APACHE_PATH}/modules")
